@@ -1,0 +1,84 @@
+/*main styles*/
+body {
+    font-family: Montserrat, monospace;
+    font-size: 15px;
+    margin: 20px auto;
+    background-color: #D3D3D3;
+}
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #483d8b;
+}
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Cardo", sans-serif;
+    text-align: center;
+    color: #008b8b;
+}
+/*color panel styling*/
+.container {
+   border: 2px solid #778899;
+   padding: 10px;
+   text-align: center;
+   width: 50%;
+   margin: 20px auto;
+}
+.color-container {
+    width: 100%;
+}
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px 20px;
+    min-height: 100px;
+    font-size: 20px;
+}
+.blueberry {
+    background-color: #483d8b;
+    color: #ffe4e1;
+}
+.dark-caribbean {
+    background-color: #008b8b;
+    color:#ffe4e1;
+}
+.purple-rain {
+    background-color: #9370db;
+}
+.rose-light {
+    background-color: #ffe4e1;
+}
+/*font panel styling*/
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+.regular {
+    font-style: normal;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: 700;
+}
+.cardo {
+    font-family: "cardo", sans-serif;
+}
+.playfair-display {
+    font-family: "playfair display", arial;
+}
+/*text styles guidelines*/
+.text-panel h1 {
+    font-weight: 700;
+    text-align: left;
+}
+.text-panel h2 {
+    text-align: left;
+}
+.text-container {
+    text-align: left;
+    margin: 15px 30px;
+}
